@@ -35,18 +35,14 @@ func (thisRef Terminal) WriteBytes(value []byte) {
 
 // HideCursor -
 func (thisRef Terminal) HideCursor() {
-	if goTerminal.IsTerminal(int(thisRef.file.Fd())) &&
-		runtime.GOOS != "windows" {
-
+	if IsFileATerminal(thisRef.file) && runtime.GOOS != "windows" {
 		thisRef.WriteString("\033[?25l")
 	}
 }
 
 // ShowCursor -
 func (thisRef Terminal) ShowCursor() {
-	if goTerminal.IsTerminal(int(thisRef.file.Fd())) &&
-		runtime.GOOS != "windows" {
-
+	if IsFileATerminal(thisRef.file) && runtime.GOOS != "windows" {
 		thisRef.WriteString("\033[?25h")
 	}
 }
@@ -58,7 +54,7 @@ func (thisRef Terminal) MoveCursorLineStart() {
 
 // ClearLine -
 func (thisRef Terminal) ClearLine() {
-	width, _, _ := goTerminal.GetSize(int(thisRef.file.Fd()))
+	width, _, _ := GetTerminalSize(thisRef.file)
 	spaces := fmt.Sprintf("%"+strconv.Itoa(width)+"s", " ")
 
 	thisRef.MoveCursorLineStart()
