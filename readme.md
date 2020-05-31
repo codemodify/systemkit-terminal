@@ -20,7 +20,8 @@
 ### What it offers
 A modern, latest and greatest cherry picking of best on the net terminal manipulations done right
 
-<iframe src="https://www.youtube.com/watch?v=dW1N9DcBF-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![](https://github.com/codemodify/systemkit-terminal/raw/master/dox/demo.gif)
+
 
 #### References
 - https://github.com/k0kubun/go-ansi
