@@ -19,3 +19,14 @@
 
 ### What it offers
 A modern, latest and greatest cherry picking of best on the net terminal manipulations done right
+
+[![](https://img.youtube.com/vi/v=dW1N9DcBF-w/0.jpg)](https://www.youtube.com/watch?v=dW1N9DcBF-w)
+
+#### References
+- https://github.com/k0kubun/go-ansi
+- https://github.com/nsf/termbox-go
+- https://github.com/buger/goterm
+- https://github.com/Azure/go-ansiterm
+- https://github.com/Nerdmaster/terminal
+- https://github.com/rivo/tview
+- https://github.com/c-bata/go-prompt
