@@ -20,7 +20,7 @@
 ### What it offers
 A modern, latest and greatest cherry picking of best on the net terminal manipulations done right
 
-[![](https://img.youtube.com/vi/v=dW1N9DcBF-w/0.jpg)](https://www.youtube.com/watch?v=dW1N9DcBF-w)
+<iframe src="https://www.youtube.com/watch?v=dW1N9DcBF-w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### References
 - https://github.com/k0kubun/go-ansi
