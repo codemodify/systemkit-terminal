@@ -1,4 +1,4 @@
-# ![](https://fonts.gstatic.com/s/i/materialicons/bookmarks/v4/24px.svg) Terminal for Unix and Windows
+# ![](https://fonts.gstatic.com/s/i/materialiconsoutlined/flare/v4/24px.svg) Terminal for Unix and Windows
 [![](https://img.shields.io/github/v/release/codemodify/systemkit-terminal?style=flat-square)](https://github.com/codemodify/systemkit-terminal/releases/latest)
 ![](https://img.shields.io/github/languages/code-size/codemodify/systemkit-terminal?style=flat-square)
 ![](https://img.shields.io/github/last-commit/codemodify/systemkit-terminal?style=flat-square)
